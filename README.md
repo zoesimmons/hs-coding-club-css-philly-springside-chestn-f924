@@ -45,6 +45,10 @@ To look at this file in the browser, like you would a normal website, in the Nit
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
+From there, you'll want to select the `beyonce.html` file:
+
+<img src="https://s3.amazonaws.com/after-school-assets/open-beyonce-html-nitrous.png" height="200px">
+
 ####Step 2: 
 
 We always write our CSS in a different file. In programming, we like to separate different tasks to different files. This is known as separation of concerns. What this means is that we have one file to write our HTML and at least one different file to write our CSS.

@@ -12,7 +12,7 @@
 <img src="https://s3.amazonaws.com/after-school-assets/new-york-times-before.png">
 
 **Beyonce.com**
-<img src="https://s3.amazonaws.com/after-school-assets/beyonce-before-real.png">
+<img src="https://s3.amazonaws.com/after-school-assets/beyonce-before.png">
 
 
 **Pretty rough huh?**  These guys clearly do not know how to dress for their size, style, and accessories? Non-existent. In fact, there is literally no stylin involved in either website. This is what Buzzfeed, The New York Times, and Beyonce look with just plain and simple text. How in the world are Stacy London and Clinton Kelly going to makeover these three websites in an hour TV segment? They have their work cut out for them.
@@ -30,7 +30,7 @@
 
 **Beyonce.com**
 
-<img src="https://s3.amazonaws.com/after-school-assets/beyonce-before.png">
+<img src="https://s3.amazonaws.com/after-school-assets/beyonce-after.png">
 
 
 ###Let's Get Started
@@ -67,7 +67,13 @@ Inside of our HTML, we need to add two `link` tags. Copy the link tags below and
 ```
 Once you've saved your changes, reload the page you opened in the browser to see the styling added!
 
+### Tell Me More About The Code
 
+Now that we're familiar with what CSS is, the role that it plays in a website, and how to link it to our HTML, let's learn how to write our own CSS.
+
+Again, we need our own HTML file. You can find a basic HTML file located in `index.html`
+
+  
 
 
 

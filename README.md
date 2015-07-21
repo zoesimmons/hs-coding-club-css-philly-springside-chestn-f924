@@ -48,7 +48,9 @@ In order to access this file, select the `Open In Nitrous` button at the top of 
 
 ####Step 2:
 
-To look at `beyonce.html` in the browser, like you would a normal website, in the Nitrous terminal in the directory for this project, enter `python -m SimpleHTTPServer 3000`. Once you have the server running, select `preview` and then `port 3000`.
+To look at `beyonce.html` in the browser, like you would a normal website, in the Nitrous terminal in the directory for this project, enter `python -m SimpleHTTPServer 3000`. 
+
+Once you have the server running, select `preview` and then `port 3000`.
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
@@ -58,7 +60,7 @@ From there, you'll want to select the `beyonce.html` file:
 
 ####Step 3: 
 
-We always write our CSS in a different file. In programming, we like to separate different tasks to different files. This is known as separation of concerns. What this means is that we have one file to write our HTML and at least one different file to write our CSS.
+We always write our CSS in a different file. In programming, we like to separate different tasks to different files. This is known as separation of concerns, which means we have one file to write our HTML and at least one different file to write our CSS.
 
 The developers of beyonce.com happened to write the CSS and store it online so we can take a look.
 
@@ -85,7 +87,7 @@ Now that we're familiar with what CSS is, the role that it plays in a website, a
 Again, we need our own HTML file. You can find a basic HTML file, `index.html` located in a directory caleld `your-css`. In terminal, you'll want to cd into `your-css`.
 
 #### Linking CSS
-The first think we need to do is link our CSS file to our HTML file.
+The first think we need to do is link our CSS file to our HTML file. Copy and paste the `link` tag below inside your `head` tag in `index.html`
 
 ```html
 <head>
@@ -93,7 +95,7 @@ The first think we need to do is link our CSS file to our HTML file.
 </head>
 ```
 
-The link tag needs to be pasted inside the head tag. Remember, the head is the brains of the operation. The link tag has three attributes `rel`, `type`, and `href`. 
+The link tag has three attributes `rel`, `type`, and `href`. 
 
 `rel` is the relationship of the type of file we're linking to our HTML. In this case, it's a stylesheet.
 
@@ -163,7 +165,7 @@ In our HTML we defined an ID on the first `p` tag. We then used that ID as our C
 Save both `index.html` and `style.css` and refresh in the browser!
 
 
-#### Adding Styling Two More Than One Paragraph
+#### Adding Styling To More Than One Paragraph
 
 What if we wanted the same styling to the second and the third paragraph? We want the text size to be 25px and the font color to be green. IDs can only be used one time per web site. IDs have to be unique, which means we can't define the same ID to two different paragraph tags.
 
@@ -184,6 +186,7 @@ In our CSS, we can use the class as our CSS selector. Copy and paste the code be
   font-size: 25px;
   color: green;
 }
+```
 
 Save both `index.html` and `style.css` and refresh!
 

@@ -15,18 +15,21 @@
 <img src="https://s3.amazonaws.com/after-school-assets/beyonce-before.png">
 
 
-Pretty rough huh? These guys clearly do not know how to dress for their size, style, and accessories? Non-existent. In fact, there is literally no stylin involved in either website. This is what Buzzfeed and The New York Times look with just plain and simple text. How in the world are Stacy London and Clinton Kelly going to makeover Buzzfeed and The New York Times in an hour TV segment? They have their work cut out for them.
+**Pretty rough huh?** These guys clearly do not know how to dress for their size, style, and accessories? Non-existent. In fact, there is literally no stylin involved in either website. This is what Buzzfeed and The New York Times look with just plain and simple text. How in the world are Stacy London and Clinton Kelly going to makeover Buzzfeed and The New York Times in an hour TV segment? They have their work cut out for them.
  
 
 ###The "Afters"
 
 **Buzzfeed**
+
 <img src="https://s3.amazonaws.com/after-school-assets/buzzfeed-after.png">
 
 **New York Times**
+
 <img src="https://s3.amazonaws.com/after-school-assets/nytimes-after.png">
 
 **Beyonce.com**
+
 <img src="https://s3.amazonaws.com/after-school-assets/beyonce-before.png">
 
 

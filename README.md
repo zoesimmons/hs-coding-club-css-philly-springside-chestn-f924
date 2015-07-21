@@ -62,7 +62,7 @@ From there, you'll want to select the `beyonce.html` file:
 
 We always write our CSS in a different file. In programming, we like to separate different tasks to different files. This is known as separation of concerns, which means we have one file to write our HTML and at least one different file to write our CSS.
 
-The developers of beyonce.com happened to write the CSS and store it online so we can take a look.
+The developers of beyonce.com happened to write the CSS and store it online so we can take a look. Don't worry if the code looks really overwhelming and confusing. The code is all smooshed together and is hard to decifer. Pieces of the code will start to make sense by the end of this lesson!
 
 <a href="http://www.beyonce.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1">StyleSheet 1</a>
 

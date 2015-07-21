@@ -75,7 +75,67 @@ Once you've saved your changes, reload the page you opened in the browser to see
 
 Now that we're familiar with what CSS is, the role that it plays in a website, and how to link it to our HTML, let's learn how to write our own CSS.
 
-Again, we need our own HTML file. You can find a basic HTML file located in `index.html`
+Again, we need our own HTML file. You can find a basic HTML file, `index.html` located in a directory caleld `your-css`. In terminal, you'll want to cd into `your-css`.
+
+#### Linking CSS
+The first think we need to do is link our CSS file to our HTML file.
+
+```html
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+```
+
+The link tag needs to be pasted inside the head tag. Remember, the head is the brains of the operation. The link tag has three attributes `rel`, `type`, and `href`. 
+
+`rel` is the relationship of the type of file we're linking to our HTML. In this case, it's a stylesheet.
+
+`type` is the type of file we're linking. Here it's a text/css file.
+
+`href` is the hyper-reference to the file we're linking. The `style.css` file is located in the same directory as `index.html` so we just have to link the file name.
+
+#### Opening Our Code In The Broswer
+
+In terminal inside the `your-css` directory, enter `python -m SimpleHTTPServer 3000`. This will start a sever so we can view our code.
+
+Then select `Preview` and `port 3000` just like we did to view `beyonce.html`:
+
+<img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
+
+This time, our `index.html` file will automatically load in the browser.
+
+
+#### Writing CSS
+
+Now, let's say we want to add specific styling to the text inside our `h1` tag. Let's say we want to make the text color red and the font size 200px.
+
+Inside of our `style.css` file we'd write:
+
+```css
+h1 {
+  color: red;
+  font-size: 200px
+}
+```
+
+We tell CSS that we're adding specific styling to our `h1`. This is called the CSS selector. We're selecting what text we want to add styling to. We assign the specific styling inside the `{}`.
+
+CSS is comprised of a series of properties and values. In this case, were using the `color` and `font-size` properties. After every property, we put a `:` and after every value we put a `;`. It's important to note that our CSS will break if we're not specific with our syntax.
+
+After we save our changes, we can refresh the page in the browser and see the styling changes we made!
+
+
+#### Changing Just ONE paragraph
+Now let's try and change the font-styling of the first paragraph to italics.
+
+```css
+p {
+  font-style: italic;
+}
+
+Save your changes and refresh. Notice that it changed not just the first paragraph, but also the second. So how can we add styling to just one?!
+
+
 
   
 

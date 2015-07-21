@@ -12,6 +12,7 @@
 <img src="https://s3.amazonaws.com/after-school-assets/new-york-times-before.png">
 
 **Beyonce.com**
+
 <img src="https://s3.amazonaws.com/after-school-assets/beyonce-before.png">
 
 
@@ -35,13 +36,19 @@
 
 ###Let's Get Started
 
-How in the world did they make those changes so quickly? The difference between the "Before" and "After" are pretty drastic. All three companies used CSS to add styling and a specific layout to their page. CSS, Cascading StyleSheet, is a programming language that makes up the beauty of the web we see today. Without it, we would be looking at black text on a white screen. 
+How in the world did they make those changes so quickly? The difference between the "Before" and "After" are pretty drastic. All three companies used CSS to add styling and a specific layout to their page. CSS, which stands for Cascading StyleSheet, is a programming language that makes up the beauty of the web we see today. Without it, we would be looking at black text on a white screen. 
 
 ####Step 1:
 
 Before we can add styling, we need to have an HTML file. We've provided you with `beyonce.html`. This file contains just the raw content of beyonce.com. We'll be making changes to this file to upgrade the look and feel. Because we're the style-gurus and Beyonce needs our help.
 
-To look at this file in the browser, like you would a normal website, in the Nitrous terminal in the directory for this project, enter `python -m SimpleHTTPServer 3000`. Once you have the server running, select `preview` and then `port 3000`.
+In order to access this file, select the `Open In Nitrous` button at the top of Learn.co
+
+<img src="https://s3.amazonaws.com/after-school-assets/open-in-nitrous.png">
+
+####Step 2:
+
+To look at `beyonce.html` in the browser, like you would a normal website, in the Nitrous terminal in the directory for this project, enter `python -m SimpleHTTPServer 3000`. Once you have the server running, select `preview` and then `port 3000`.
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
@@ -49,7 +56,7 @@ From there, you'll want to select the `beyonce.html` file:
 
 <img src="https://s3.amazonaws.com/after-school-assets/open-beyonce-html-nitrous.png" height="200px">
 
-####Step 2: 
+####Step 3: 
 
 We always write our CSS in a different file. In programming, we like to separate different tasks to different files. This is known as separation of concerns. What this means is that we have one file to write our HTML and at least one different file to write our CSS.
 
@@ -59,7 +66,7 @@ The developers of beyonce.com happened to write the CSS and store it online so w
 
 <a href="http://www.beyonce.com/wp-content/themes/beyonce_2014/assets/stylesheets/styles.css?ver=4.2.1">StyleSheet 2</a>
 
-#### Step 3:
+#### Step 4:
 
 Now that we have our HTML file and our CSS files, we need to link them. Essentially, our `beyonce.html` file needs to know to load both of the CSS files to apply styling.
 

@@ -132,8 +132,70 @@ Now let's try and change the font-styling of the first paragraph to italics.
 p {
   font-style: italic;
 }
+```
+Save your changes and refresh. Notice that it changed not just the first paragraph, but also the second and the third. So how can we add styling to just one?! obviously using `p` as our CSS selector is selecting the text inside _every_ `p` tag on the page.
 
-Save your changes and refresh. Notice that it changed not just the first paragraph, but also the second. So how can we add styling to just one?!
+We can do that by modifying both our HTML and our CSS. 
+
+Inside our HTML, we need to add `id="paragraph-one"` inside our very first opening `p` tag:
+
+```html
+<p id="paragraph-one"> Bacon ipsum dolor amet venison turducken sirloin filet mignon. Shoulder porchetta kevin beef turducken corned beef. Fatback short loin beef, venison drumstick cow chuck corned beef. Shoulder t-bone swine rump pancetta ribeye, picanha spare ribs boudin hamburger biltong chicken pig drumstick turducken. Meatball doner shank boudin ham brisket. Jerky meatball pancetta shoulder, pork kevin swine. Biltong drumstick shankle, cupim sausage tenderloin pastrami shank flank.<p>
+```
+
+Inside our CSS, we need to select the text inside the tag with the id `paragraph-one`, instead of just `p`.
+
+```css
+#paragraph-one {
+  font-style: italic;
+}
+```
+
+In our HTML we defined an ID on the first `p` tag. We then used that ID as our CSS selector, and applied that styling to our text.
+
+Save both `index.html` and `style.css` and refresh in the browser!
+
+
+#### Adding Styling Two More Than One Paragraph
+
+What if we wanted the same styling to the second and the third paragraph? We want the text size to be 25px and the font color to be green. IDs can only be used one time per web site. IDs have to be unique, which means we can't define the same ID to two different paragraph tags.
+
+Instead, we uses classes
+
+Inside your `index.html`, add `class="two-paragraphs"` inside the opening `p` tag of both paragraphs.
+
+```html
+<p class="two-paragraphs">Leberkas t-bone kielbasa prosciutto pancetta, drumstick picanha pork belly cow meatball venison spare ribs landjaeger fatback. Pork shank boudin jerky venison. Salami pork chop leberkas beef. Bacon porchetta shoulder, cow strip steak prosciutto chicken beef. Bresaola drumstick flank chuck, frankfurter picanha brisket spare ribs andouille jerky ball tip leberkas.</p>
+
+<p class="two-paragraphs">Short ribs jowl ham hock short loin venison fatback salami drumstick jerky beef ribs filet mignon boudin t-bone swine. Swine biltong tongue, salami beef bacon porchetta tri-tip. Tongue rump spare ribs ball tip salami, chuck sausage corned beef landjaeger cupim frankfurter. Pork belly brisket sirloin alcatra.</p>
+```
+
+In our CSS, we can use the class as our CSS selector. Copy and paste the code below inside your `style.css`:
+
+```css
+.two-paragraphs {
+  font-size: 25px;
+  color: green;
+}
+
+Save both `index.html` and `style.css` and refresh!
+
+
+### Want To Learn More?
+
+No need to memorize all those CSS properties. Take a look at these great resources.
+
+1 [Mozzilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started)
+
+2 [Learn Layout](http://learnlayout.com/)
+
+3 [CodeAcademy CSS Glossary](http://www.codecademy.com/glossary/css)
+
+4 [w3schools](http://www.w3schools.com/cssref/)
+
+5 [Colour Lovers](http://www.colourlovers.com/)
+
+
 
 
 

@@ -16,7 +16,7 @@
 <img src="https://s3.amazonaws.com/after-school-assets/beyonce-before.png">
 
 
-**Pretty rough huh?**  These guys clearly do not know how to dress for their size, style, and accessories? Non-existent. In fact, there is literally no stylin involved in either website. This is what Buzzfeed, The New York Times, and Beyonce look with just plain and simple text. How in the world are Stacy London and Clinton Kelly going to makeover these three websites in an hour TV segment? They have their work cut out for them.
+**Pretty rough huh?**  These guys clearly do not know how to dress for their size, style, and accessories? Non-existent. In fact, there is literally no styling involved in either website. This is what Buzzfeed, The New York Times, and Beyonce look with just plain and simple text. How in the world are Stacy London and Clinton Kelly going to makeover these three websites in an hour TV segment? They have their work cut out for them.
  
 
 ###The "Afters"
@@ -36,11 +36,11 @@
 
 ###Let's Get Started
 
-How in the world did they make those changes so quickly? The difference between the "Before" and "After" are pretty drastic. All three companies used CSS to add styling and a specific layout to their page. CSS, which stands for Cascading StyleSheet, is a programming language that makes up the beauty of the web we see today. Without it, we would be looking at black text on a white screen. 
+How in the world did they make those changes so quickly? The difference between the "Before" and "After" are all pretty drastic. All three companies used CSS to add styling and a specific layout to their page. CSS, which stands for Cascading StyleSheet, is a programming language that makes up the beauty of the web we see today. Without it, we would be looking at black text on a white screen. 
 
 ####Step 1:
 
-Before we can add styling, we need to have an HTML file. We've provided you with `beyonce.html`. This file contains just the raw content of beyonce.com. We'll be making changes to this file to upgrade the look and feel. Because we're the style-gurus and Beyonce needs our help.
+Before we can add styling, we need to have an HTML file. We've provided you with `beyonce.html`. This file contains just the raw content of beyonce.com. We'll be making changes to this file to upgrade the look and feel, because we're the style-gurus and Beyonce needs our help.
 
 In order to access this file, select the `Open In Nitrous` button at the top of Learn.co
 
@@ -48,7 +48,7 @@ In order to access this file, select the `Open In Nitrous` button at the top of 
 
 ####Step 2:
 
-To look at `beyonce.html` in the browser, like you would a normal website, in the Nitrous terminal in the directory for this project, enter `python -m SimpleHTTPServer 3000`. 
+To view `beyonce.html` in the browser, like you would a normal website, in the Nitrous terminal in the directory for this project, enter `python -m SimpleHTTPServer 3000`. 
 
 Once you have the server running, select `preview` and then `port 3000`.
 

@@ -151,6 +151,7 @@ Inside our HTML, we need to add `id="paragraph-one"` inside our very first openi
 ```html
 <p id="paragraph-one"> Bacon ipsum dolor amet venison turducken sirloin filet mignon. Shoulder porchetta kevin beef turducken corned beef. Fatback short loin beef, venison drumstick cow chuck corned beef. Shoulder t-bone swine rump pancetta ribeye, picanha spare ribs boudin hamburger biltong chicken pig drumstick turducken. Meatball doner shank boudin ham brisket. Jerky meatball pancetta shoulder, pork kevin swine. Biltong drumstick shankle, cupim sausage tenderloin pastrami shank flank.<p>
 ```
+An ID is an attribute of an HTML tag that acts specific and unique identifier for that particular piece of content. You cannot repeat IDs in a website. 
 
 Inside our CSS, we need to select the text inside the tag with the id `paragraph-one`, instead of just `p`.
 
@@ -169,7 +170,7 @@ Save both `index.html` and `style.css` and refresh in the browser!
 
 What if we wanted the same styling to the second and the third paragraph? We want the text size to be 25px and the font color to be green. IDs can only be used one time per web site. IDs have to be unique, which means we can't define the same ID to two different paragraph tags.
 
-Instead, we uses classes
+Instead, we uses classes. A `class` is another HTML tag attribute that identifies a group of tags that want to have the same styling. You can have the same class repeated as many times as you want in your HTML.
 
 Inside your `index.html`, add `class="two-paragraphs"` inside the opening `p` tag of both paragraphs.
 

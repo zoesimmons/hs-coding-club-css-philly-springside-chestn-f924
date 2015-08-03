@@ -36,7 +36,7 @@
 
 ###Let's Get Started
 
-How in the world did they make those changes so quickly? The difference between the "Before" and "After" are all pretty drastic. All three companies used CSS to add styling and a specific layout to their page. CSS, which stands for Cascading StyleSheet, is a programming language that makes up the beauty of the web we see today. Without it, we would be looking at black text on a white screen. 
+How in the world did they make those changes so quickly? The difference between the "Before" and "After" are all pretty drastic. All three companies used CSS to add styling and a specific layout to their page. CSS, which stands for Cascading StyleSheet, is a programming language that makes the beauty of the web we see today. Without it, we would be looking at black text on a white screen. 
 
 ####Step 1:
 
@@ -84,7 +84,7 @@ Once you've saved your changes, reload the page you opened in the browser to see
 
 Now that we're familiar with what CSS is, the role that it plays in a website, and how to link it to our HTML, let's learn how to write our own CSS.
 
-Again, we need our own HTML file. You can find a basic HTML file, `index.html` located in a directory caleld `your-css`. In terminal, you'll want to cd into `your-css`.
+Again, we need our own HTML file. You can find a basic HTML file, `index.html` located in a directory called `your-css`. In terminal, you'll want to move into the `your_css` directory by entering in terminal `cd your_css`. `cd` is a command that stands for change directory. This moves our location from one directory to another.
 
 #### Linking CSS
 The first think we need to do is link our CSS file to our HTML file. Copy and paste the `link` tag below inside your `head` tag in `index.html`

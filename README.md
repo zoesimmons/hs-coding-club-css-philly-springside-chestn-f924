@@ -42,7 +42,7 @@ Woah Stacy and Clinton work fast! They made those changes so quickly! The differ
 
 Before we can add styling, we need to have an HTML file. We've provided you with `beyonce.html`. This file contains just the raw content of beyonce.com. We'll be making changes to this file to upgrade the look and feel, because we're the style-gurus and Beyonce needs our help.
 
-In order to access this file, take a look at the `How To: Work On A Lab` to fork and clone this lesson.
+In order to access this file, take a look at the `How To: Fork and Clone A Lab` to fork and clone this lesson.
 
 ####Step 2:
 

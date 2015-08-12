@@ -147,6 +147,7 @@ p {
   font-style: italic;
 }
 ```
+
 Save your changes and refresh. Notice that it changed not just the first paragraph, but also the second and the third. So how can we add styling to just one?! obviously using `p` as our CSS selector is selecting the text inside _every_ `p` tag on the page.
 
 We can do that by modifying both our HTML and our CSS. 

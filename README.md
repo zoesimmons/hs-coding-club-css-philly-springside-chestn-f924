@@ -16,7 +16,7 @@
 <img src="https://s3.amazonaws.com/after-school-assets/beyonce-before.png">
 
 
-**Pretty rough huh?**  These guys clearly do not know how to dress for their size, style, and accessories? Non-existent. In fact, there is literally no styling involved in either website. This is what Buzzfeed, The New York Times, and Beyonce look with just plain and simple text. How in the world are Stacy London and Clinton Kelly going to makeover these three websites in an hour TV segment? They have their work cut out for them.
+**Pretty rough huh?**  These guys clearly do not know how to dress for their size, style, and accessories? Non-existent. In fact, there is literally no styling involved in any of the websites. This is what Buzzfeed, The New York Times, and Beyonce look with just plain and simple text. How in the world are Stacy London and Clinton Kelly going to makeover these three websites in an hour TV segment? They have their work cut out for them.
  
 
 ###The "Afters"
@@ -36,7 +36,7 @@
 
 ###Let's Get Started
 
-How in the world did they make those changes so quickly? The difference between the "Before" and "After" are all pretty drastic. All three companies used CSS to add styling and a specific layout to their page. CSS, which stands for Cascading StyleSheet, is a programming language that makes the beauty of the web we see today. Without it, we would be looking at black text on a white screen. 
+Woah Stacy and Clinton work fast! They made those changes so quickly! The difference between the "Before" and "After" are all pretty drastic. All three companies used CSS to add styling and a specific layout to their page. CSS, which stands for Cascading StyleSheet, is a programming language that makes the beauty of the web we see today. Without it, we would only be looking at "Before" versions of every single website.
 
 ####Step 1:
 
@@ -60,7 +60,7 @@ From there, you'll want to select the `beyonce.html` file:
 
 We always write our CSS in a different file. In programming, we like to separate different tasks to different files. This is known as separation of concerns, which means we have one file to write our HTML and at least one different file to write our CSS.
 
-The developers of beyonce.com happened to write the CSS and store it online so we can take a look. Don't worry if the code looks really overwhelming and confusing. The code is all smooshed together and is hard to decifer. Pieces of the code will start to make sense by the end of this lesson!
+The developers of beyonce.com happened to write the CSS and store it online so we can take a look. Don't worry if the code looks really overwhelming and confusing. The code is all smooshed together and is hard to decifer, but pieces of the code will start to make sense by the end of this lesson!
 
 <a href="http://www.beyonce.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1">StyleSheet 1</a>
 
@@ -76,16 +76,22 @@ Inside of our HTML, we need to add two `link` tags. Copy the link tags below and
   <link rel='stylesheet' id='se-link-styles-css'  href='http://www.beyonce.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1' type='text/css' media='all' />
   <link rel='stylesheet' id='app-css-css'  href='http://www.beyonce.com/wp-content/themes/beyonce_2014/assets/stylesheets/styles.css?ver=4.2.1' type='text/css' media='all' />
 ```
-Once you've saved your changes, reload the page you opened in the browser to see the styling added!
+Once you've saved your changes, refresh the page you opened in the browser to see the styling added!
 
 ### Tell Me More About The Code
 
 Now that we're familiar with what CSS is, the role that it plays in a website, and how to link it to our HTML, let's learn how to write our own CSS.
 
-Again, we need our own HTML file. You can find a basic HTML file, `index.html` located in a directory called `your-css`. In terminal, you'll want to move into the `your_css` directory by entering in terminal `cd your_css`. `cd` is a command that stands for change directory. This moves our location from one directory to another.
+Again, we need our own HTML file. You can find a basic HTML file, `index.html` located in a directory called `your-css`.
+
+Before you can do anything else, you need to shut down the server that is loading `beyonce.html` for us. You can do that by hitting `control` + `c`.
+
+Now, you'll want to move into the `your_css` directory by entering in terminal: `cd your_css`.
+
+`cd` is a command that stands for "change directory". This moves our location from one directory to another.
 
 #### Linking CSS
-The first think we need to do is link our CSS file to our HTML file. Copy and paste the `link` tag below inside your `head` tag in `index.html`
+The first thing we need to do is link our CSS file to our HTML file. Copy and paste the `link` tag below inbetween the opening and closing `<head>` tag in `index.html`:
 
 ```html
 <head>
@@ -114,7 +120,7 @@ This time, our `index.html` file will automatically load in the browser.
 
 #### Writing CSS
 
-Now, let's say we want to add specific styling to the text inside our `h1` tag. Let's say we want to make the text color red and the font size 200px.
+Now, let's say we want to add specific styling to the text inside our `h1` tag. We want to make the text color red and the font size 200px.
 
 Inside of our `style.css` file we'd write:
 
@@ -125,7 +131,7 @@ h1 {
 }
 ```
 
-We tell CSS that we're adding specific styling to our `h1`. This is called the CSS selector. We're selecting what text we want to add styling to. We assign the specific styling inside the `{}`.
+We tell CSS that we're adding specific styling to our `h1` tag. This is called the CSS selector. We're selecting what text we want to add styling to by typing the name of the HTML tag. We assign the specific styling inside the `{}`.
 
 CSS is comprised of a series of properties and values. In this case, were using the `color` and `font-size` properties. After every property, we put a `:` and after every value we put a `;`. It's important to note that our CSS will break if we're not specific with our syntax.
 
@@ -133,6 +139,7 @@ After we save our changes, we can refresh the page in the browser and see the st
 
 
 #### Changing Just ONE paragraph
+
 Now let's try and change the font-styling of the first paragraph to italics.
 
 ```css

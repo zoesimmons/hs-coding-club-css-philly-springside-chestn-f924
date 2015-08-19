@@ -11,12 +11,12 @@
 
 <img src="https://s3.amazonaws.com/after-school-assets/new-york-times-before.png">
 
-**Beyonce.com**
+**Beyoncé.com**
 
-<img src="https://s3.amazonaws.com/after-school-assets/beyonce-before.png">
+<img src="https://s3.amazonaws.com/after-school-assets/Beyoncé-before.png">
 
 
-**Pretty rough huh?**  These guys clearly do not know how to dress for their size, style, and accessories? Non-existent. In fact, there is literally no styling involved in any of the websites. This is what Buzzfeed, The New York Times, and Beyonce look with just plain and simple text. How in the world are Stacy London and Clinton Kelly going to makeover these three websites in an hour TV segment? They have their work cut out for them.
+**Pretty rough huh?**  These guys clearly do not know how to dress for their size, style, and accessories? Non-existent. In fact, there is literally no styling involved in any of the websites. This is what Buzzfeed, The New York Times, and Beyoncé look with just plain and simple text. How in the world are Stacy London and Clinton Kelly going to makeover these three websites in an hour TV segment? They have their work cut out for them.
  
 
 ###The "Afters"
@@ -29,18 +29,18 @@
 
 <img src="https://s3.amazonaws.com/after-school-assets/nytimes-after.png">
 
-**Beyonce.com**
+**Beyoncé.com**
 
-<img src="https://s3.amazonaws.com/after-school-assets/beyonce-after.png">
+<img src="https://s3.amazonaws.com/after-school-assets/Beyoncé-after.png">
 
 
 ###Let's Get Started
 
-Woah Stacy and Clinton work fast! They made those changes so quickly! The difference between the "Before" and "After" are all pretty drastic. All three companies used CSS to add styling and a specific layout to their page. CSS, which stands for Cascading StyleSheet, is a programming language that makes the beauty of the web we see today. Without it, we would only be looking at "Before" versions of every single website.
+Woah Stacy and Clinton work fast! They made those changes so quickly! The differences between the "Before" and "After" are all pretty drastic. All three companies used CSS to add styling and a specific layout to their page. CSS, which stands for Cascading Style Sheet, is a programming language that makes the beauty of the web we see today. Without it, we would only be looking at "Before" versions of every single website.
 
 ####Step 1:
 
-Before we can add styling, we need to have an HTML file. We've provided you with `beyonce.html`. This file contains just the raw content of beyonce.com. We'll be making changes to this file to upgrade the look and feel, because we're the style-gurus and Beyonce needs our help.
+Before we can add styling, we need to have an HTML file. We've provided you with `Beyonce.html`. This file contains just the raw content of Beyoncé.com. We'll be making changes to this file to upgrade the look and feel, because we're the style-gurus and Beyoncé needs our help.
 
 In order to access this lesson and edit files, please click the `Open in Nitrous` button at the top of the page.
 
@@ -48,35 +48,40 @@ In order to access this lesson and edit files, please click the `Open in Nitrous
 
 ####Step 2:
 
-To view `beyonce.html` in the browser, like you would a normal website, in the Nitrous terminal in the directory for this project, enter `python -m SimpleHTTPServer 3000`. 
+To view `Beyoncé.html` in the browser, like you would a normal website, in the Nitrous terminal in the directory for this project, enter `python -m SimpleHTTPServer 3000`. 
 
 Once you have the server running, select `preview` and then `port 3000`.
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
-From there, you'll want to select the `beyonce.html` file:
+From the browser you just opened (should be a super simple mostly white page with a couple links), select the `beyonce.html` file.
 
-<img src="https://s3.amazonaws.com/after-school-assets/open-beyonce-html-nitrous.png" height="200px">
+<img src="https://s3.amazonaws.com/after-school-assets/open-Beyoncé-html-nitrous.png" height="200px">
+
+Take a look at `beyonce.html` in the Nitrous text editor too. Notice how the developers that built her site put their logo in huge block letters at the top? Comments never show up in the actual website, and are a great way to leave notes from developers to other developers. [Top Tip: You can create comments in HTML by surround your comment with `<!-- -->`.
+
 
 ####Step 3: 
 
 We always write our CSS in a different file. In programming, we like to separate different tasks to different files. This is known as separation of concerns, which means we have one file to write our HTML and at least one different file to write our CSS.
 
-The developers of beyonce.com happened to write the CSS and store it online so we can take a look. Don't worry if the code looks really overwhelming and confusing. The code is all smooshed together and is hard to decifer, but pieces of the code will start to make sense by the end of this lesson!
+The developers of Beyoncé.com happened to write the CSS and store it online so we can take a look. Don't worry if the code looks really overwhelming and confusing. The code is all smooshed together and is hard to decipher, but pieces of the code will start to make sense by the end of this lesson!
 
-<a href="http://www.beyonce.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1">StyleSheet 1</a>
+Take a look now for funsies--the next step is about linking these two style sheets to our HTML file, `beyonce.html` so we can make the raw content beautiful.
 
-<a href="http://www.beyonce.com/wp-content/themes/beyonce_2014/assets/stylesheets/styles.css?ver=4.2.1">StyleSheet 2</a>
+<a href="http://www.Beyoncé.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1">StyleSheet 1</a>
+
+<a href="http://www.Beyoncé.com/wp-content/themes/Beyoncé_2014/assets/stylesheets/styles.css?ver=4.2.1">StyleSheet 2</a>
 
 #### Step 4:
 
-Now that we have our HTML file and our CSS files, we need to link them. Essentially, our `beyonce.html` file needs to know to load both of the CSS files to apply styling.
+Now that we have our HTML file and our CSS files, we need to link them. Essentially, our `Beyoncé.html` file needs to know to load both of the CSS files to apply styling.
 
-Inside of our HTML, we need to add two `link` tags. Copy the link tags below and paste them in `beyonce.html` where you see the comment `<!-- CSS LINK GOES HERE -->`.
+Inside of our HTML, we need to add two `link` tags. Copy the link tags below and paste them in `Beyoncé.html` where you see the comment `<!-- CSS LINK GOES HERE -->`. You can use a typical browser screen search to find that particular portion of the code.
 
 ```html
-  <link rel='stylesheet' id='se-link-styles-css'  href='http://www.beyonce.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1' type='text/css' media='all' />
-  <link rel='stylesheet' id='app-css-css'  href='http://www.beyonce.com/wp-content/themes/beyonce_2014/assets/stylesheets/styles.css?ver=4.2.1' type='text/css' media='all' />
+  <link rel='stylesheet' id='se-link-styles-css'  href='http://www.Beyoncé.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1' type='text/css' media='all' />
+  <link rel='stylesheet' id='app-css-css'  href='http://www.Beyoncé.com/wp-content/themes/Beyoncé_2014/assets/stylesheets/styles.css?ver=4.2.1' type='text/css' media='all' />
 ```
 Once you've saved your changes, refresh the page you opened in the browser to see the styling added!
 
@@ -86,7 +91,7 @@ Now that we're familiar with what CSS is, the role that it plays in a website, a
 
 Again, we need our own HTML file. You can find a basic HTML file, `index.html` located in a directory called `your-css`.
 
-Before you can do anything else, you need to shut down the server that is loading `beyonce.html` for us. You can do that by hitting `control` + `c`.
+Before you can do anything else, you need to shut down the server that is loading `Beyoncé.html` for us. You can do that by hitting `control` + `c`.
 
 Now, you'll want to move into the `your_css` directory by entering in terminal: `cd your_css`.
 
@@ -109,11 +114,11 @@ The link tag has three attributes `rel`, `type`, and `href`.
 
 `href` is the hyper-reference to the file we're linking. The `style.css` file is located in the same directory as `index.html` so we just have to link the file name.
 
-#### Opening Our Code In The Broswer
+#### Opening Our Code In The Browser
 
 In terminal inside the `your-css` directory, enter `python -m SimpleHTTPServer 3000`. This will start a sever so we can view our code.
 
-Then select `Preview` and `port 3000` just like we did to view `beyonce.html`:
+Then select `Preview` and `port 3000` just like we did to view `Beyoncé.html`:
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 

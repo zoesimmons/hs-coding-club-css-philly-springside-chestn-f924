@@ -31,7 +31,7 @@
 
 **Beyoncé.com**
 
-<img src="https://s3.amazonaws.com/after-school-assets/Beyoncé-after.png">
+<img src="https://s3.amazonaws.com/after-school-assets/beyonce-after.png">
 
 
 ###Let's Get Started
@@ -98,7 +98,7 @@ Now, you'll want to move into the `your_css` directory by entering in terminal: 
 `cd` is a command that stands for "change directory". This moves our location from one directory to another.
 
 #### Linking CSS
-The first thing we need to do is link our CSS file to our HTML file. Copy and paste the `link` tag below inbetween the opening and closing `<head>` tag in `index.html`:
+The first thing we need to do is link our CSS file to our HTML file. Copy and paste the `link` tag below in between the opening and closing `<head>` tag in `index.html` (either above or below the `<title>` tag is fine):
 
 ```html
 <head>
@@ -106,13 +106,19 @@ The first thing we need to do is link our CSS file to our HTML file. Copy and pa
 </head>
 ```
 
+Don't forget to save your changes after you edit your file!
+
 The link tag has three attributes `rel`, `type`, and `href`. 
 
-`rel` is the relationship of the type of file we're linking to our HTML. In this case, it's a stylesheet.
+`rel` is the relationship of the type of file we're linking to our HTML. In this case, it's a style sheet.
 
 `type` is the type of file we're linking. Here it's a text/css file.
 
 `href` is the hyper-reference to the file we're linking. The `style.css` file is located in the same directory as `index.html` so we just have to link the file name.
+
+So far, we've just linked our CSS file to our HTML file. Websites typically will have several CSS files (Beyoncé has two), as well as several JavaScript files that handle all the animations on a website. Don't worry too much about JavaScript right now, we'll get into that in the next Unit.
+
+It's important to note here that HTML and CSS are different languages, written in different files that have authority over different roles of our website. As we can see from the Befores and Afters, CSS plays an incredibly important role in displaying the content of our websites in visually appealing ways. The rest of the lessons in this unit will walk you through how to make stunning websites, just like the developers for beyonce.com.
 
 #### Opening Our Code In The Browser
 
@@ -124,17 +130,28 @@ Then select `Preview` and `port 3000` just like we did to view `Beyoncé.html`:
 
 This time, our `index.html` file will automatically load in the browser.
 
+Make sure to shut down your server by hitting `control` and `c` so you can keep working on the rest of the lesson!
+
+You'll notice in the `head` tag, there no CSS file has been linked. The first step, before we can write any CSS is to link our HTML file. Copy and paste the code below inside your `head` tag (either above or below the `title` tag):
+
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+Make sure you save your changes!
 
 #### Writing CSS
 
-Now, let's say we want to add specific styling to the text inside our `h1` tag. We want to make the text color red and the font size 200px.
+Next, you'll want to use the file navigator in Nitrous to open `style.css` in the text editor. You'll be coding your solutions there. 
+
+Let's say we want to add specific styling to the text inside our `h1` tag. We want to make the text color red and the font size 200px.
 
 Inside of our `style.css` file we'd write:
 
 ```css
 h1 {
   color: red;
-  font-size: 200px
+  font-size: 200px;
 }
 ```
 
@@ -162,11 +179,11 @@ We can do that by modifying both our HTML and our CSS.
 Inside our HTML, we need to add `id="paragraph-one"` inside our very first opening `p` tag:
 
 ```html
-<p id="paragraph-one"> Bacon ipsum dolor amet venison turducken sirloin filet mignon. Shoulder porchetta kevin beef turducken corned beef. Fatback short loin beef, venison drumstick cow chuck corned beef. Shoulder t-bone swine rump pancetta ribeye, picanha spare ribs boudin hamburger biltong chicken pig drumstick turducken. Meatball doner shank boudin ham brisket. Jerky meatball pancetta shoulder, pork kevin swine. Biltong drumstick shankle, cupim sausage tenderloin pastrami shank flank.<p>
+<p id="paragraph-one"> Bacon ipsum dolor amet venison turducken sirloin filet mignon. Shoulder porchetta kevin beef turducken corned beef. Fatback short loin beef, venison drumstick cow chuck corned beef. Shoulder t-bone swine rump pancetta ribeye, picanha spare ribs boudin hamburger biltong chicken pig drumstick turducken. Meatball doner shank boudin ham brisket. Jerky meatball pancetta shoulder, pork kevin swine. Biltong drumstick shankle, cupim sausage tenderloin pastrami shank flank.</p>
 ```
-An ID is an attribute of an HTML tag that acts specific and unique identifier for that particular piece of content. You cannot repeat IDs in a website. 
+An ID is an attribute of an HTML tag that acts as a specific and unique identifier for that particular piece of content. You cannot repeat IDs in a website. 
 
-Inside our CSS, we need to select the text inside the tag with the id `paragraph-one`, instead of just `p`.
+Inside our CSS, we need to select the text inside the tag with the ID paragraph-one, instead of just p. Delete the original paragraph styling we wrote and replace it with this styling for just the text that we gave the unique ID to. 
 
 ```css
 #paragraph-one {

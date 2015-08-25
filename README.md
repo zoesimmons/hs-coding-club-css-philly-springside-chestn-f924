@@ -71,7 +71,7 @@ Take a look now for funsies--the next step is about linking these two style shee
 
 <a href="http://www.beyonce.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1">StyleSheet 1</a>
 
-<a href="http://www.beyonce.com/wp-content/themes/Beyoncé_2014/assets/stylesheets/styles.css?ver=4.2.1">StyleSheet 2</a>
+<a href="http://www.beyonce.com/wp-content/themes/beyonce_2014/assets/stylesheets/styles.css?ver=4.2.1">StyleSheet 2</a>
 
 #### Step 4:
 

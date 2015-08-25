@@ -13,7 +13,7 @@
 
 **Beyoncé.com**
 
-<img src="https://s3.amazonaws.com/after-school-assets/Beyoncé-before.png">
+<img src="https://s3.amazonaws.com/after-school-assets/beyonce-before.png">
 
 
 **Pretty rough huh?**  These guys clearly do not know how to dress for their size, style, and accessories? Non-existent. In fact, there is literally no styling involved in any of the websites. This is what Buzzfeed, The New York Times, and Beyoncé look with just plain and simple text. How in the world are Stacy London and Clinton Kelly going to makeover these three websites in an hour TV segment? They have their work cut out for them.

@@ -40,7 +40,7 @@ Woah Stacy and Clinton work fast! They made those changes so quickly! The differ
 
 ####Step 1:
 
-Before we can add styling, we need to have an HTML file. We've provided you with `Beyonce.html`. This file contains just the raw content of Beyoncé.com. We'll be making changes to this file to upgrade the look and feel, because we're the style-gurus and Beyoncé needs our help.
+Before we can add styling, we need to have an HTML file. We've provided you with `Beyonce.html`. This file contains just the raw content of Beyonce.com. We'll be making changes to this file to upgrade the look and feel, because we're the style-gurus and Beyoncé needs our help.
 
 In order to access this lesson and edit files, please click the `Open in Nitrous` button at the top of the page.
 
@@ -48,7 +48,7 @@ In order to access this lesson and edit files, please click the `Open in Nitrous
 
 ####Step 2:
 
-To view `Beyoncé.html` in the browser, like you would a normal website, in the Nitrous terminal in the directory for this project, enter `python -m SimpleHTTPServer 3000`. 
+To view `Beyonce.html` in the browser, like you would a normal website, in the Nitrous terminal in the directory for this project, enter `python -m SimpleHTTPServer 3000`. 
 
 Once you have the server running, select `preview` and then `port 3000`.
 
@@ -65,7 +65,7 @@ Take a look at `beyonce.html` in the Nitrous text editor too. Notice how the dev
 
 We always write our CSS in a different file. In programming, we like to separate different tasks to different files. This is known as separation of concerns, which means we have one file to write our HTML and at least one different file to write our CSS.
 
-The developers of Beyoncé.com happened to write the CSS and store it online so we can take a look. Don't worry if the code looks really overwhelming and confusing. The code is all smooshed together and is hard to decipher, but pieces of the code will start to make sense by the end of this lesson!
+The developers of Beyonce.com happened to write the CSS and store it online so we can take a look. Don't worry if the code looks really overwhelming and confusing. The code is all smooshed together and is hard to decipher, but pieces of the code will start to make sense by the end of this lesson!
 
 Take a look now for funsies--the next step is about linking these two style sheets to our HTML file, `beyonce.html` so we can make the raw content beautiful.
 
@@ -80,8 +80,8 @@ Now that we have our HTML file and our CSS files, we need to link them. Essentia
 Inside of our HTML, we need to add two `link` tags. Copy the link tags below and paste them in `beyonce.html` where you see the comment `<!-- CSS LINK GOES HERE -->`. You can use a typical browser screen search to find that particular portion of the code.
 
 ```html
-  <link rel='stylesheet' id='se-link-styles-css'  href='http://www.Beyoncé.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1' type='text/css' media='all' />
-  <link rel='stylesheet' id='app-css-css'  href='http://www.Beyoncé.com/wp-content/themes/Beyoncé_2014/assets/stylesheets/styles.css?ver=4.2.1' type='text/css' media='all' />
+  <link rel='stylesheet' id='se-link-styles-css'  href='http://www.beyonce.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1' type='text/css' media='all' />
+  <link rel='stylesheet' id='app-css-css'  href='http://www.beyonce.com/wp-content/themes/beyonce_2014/assets/stylesheets/styles.css?ver=4.2.1' type='text/css' media='all' />
 ```
 Once you've saved your changes, refresh the page you opened in the browser to see the styling added!
 

@@ -56,7 +56,7 @@ Once you have the server running, select `preview` and then `port 3000`.
 
 From the browser you just opened (should be a super simple mostly white page with a couple links), select the `beyonce.html` file.
 
-<img src="https://s3.amazonaws.com/after-school-assets/open-Beyoncé-html-nitrous.png" height="200px">
+<img src="https://s3.amazonaws.com/after-school-assets/open-beyonce-html-nitrous.png" height="200px">
 
 Take a look at `beyonce.html` in the Nitrous text editor too. Notice how the developers that built her site put their logo in huge block letters at the top? Comments never show up in the actual website, and are a great way to leave notes from developers to other developers. [Top Tip: You can create comments in HTML by surround your comment with `<!-- -->`.
 

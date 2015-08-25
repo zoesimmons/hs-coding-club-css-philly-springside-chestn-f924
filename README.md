@@ -69,21 +69,25 @@ The developers of Beyoncé.com happened to write the CSS and store it online so 
 
 Take a look now for funsies--the next step is about linking these two style sheets to our HTML file, `beyonce.html` so we can make the raw content beautiful.
 
-<a href="http://www.Beyoncé.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1">StyleSheet 1</a>
+<a href="http://www.beyonce.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1">StyleSheet 1</a>
 
-<a href="http://www.Beyoncé.com/wp-content/themes/Beyoncé_2014/assets/stylesheets/styles.css?ver=4.2.1">StyleSheet 2</a>
+<a href="http://www.beyonce.com/wp-content/themes/Beyoncé_2014/assets/stylesheets/styles.css?ver=4.2.1">StyleSheet 2</a>
 
 #### Step 4:
 
-Now that we have our HTML file and our CSS files, we need to link them. Essentially, our `Beyoncé.html` file needs to know to load both of the CSS files to apply styling.
+Now that we have our HTML file and our CSS files, we need to link them. Essentially, our `beyonce.html` file needs to know to load both of the CSS files to apply styling.
 
-Inside of our HTML, we need to add two `link` tags. Copy the link tags below and paste them in `Beyoncé.html` where you see the comment `<!-- CSS LINK GOES HERE -->`. You can use a typical browser screen search to find that particular portion of the code.
+Inside of our HTML, we need to add two `link` tags. Copy the link tags below and paste them in `beyonce.html` where you see the comment `<!-- CSS LINK GOES HERE -->`. You can use a typical browser screen search to find that particular portion of the code.
 
 ```html
   <link rel='stylesheet' id='se-link-styles-css'  href='http://www.Beyoncé.com/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.2.1' type='text/css' media='all' />
   <link rel='stylesheet' id='app-css-css'  href='http://www.Beyoncé.com/wp-content/themes/Beyoncé_2014/assets/stylesheets/styles.css?ver=4.2.1' type='text/css' media='all' />
 ```
 Once you've saved your changes, refresh the page you opened in the browser to see the styling added!
+
+#### Step 5: Share Share Share!
+
+You just helped Beyoncé! Talk about a cool moment. Screenshot the fixed site or the code and share with **\#flatironcodeclub** and **\#styledbeyonce**
 
 ### Tell Me More About The Code
 

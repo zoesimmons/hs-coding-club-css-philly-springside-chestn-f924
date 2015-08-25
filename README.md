@@ -85,7 +85,13 @@ Inside of our HTML, we need to add two `link` tags. Copy the link tags below and
 ```
 Once you've saved your changes, refresh the page you opened in the browser to see the styling added!
 
-#### Step 5: Share Share Share!
+#### Step 5:
+
+It's time to store your work on Github and mark this lesson as complete on Learn (you can keep reading on to learn more about writing your own CSS!).
+
+In terminal, in Nitrous, enter `learn submit`. Voila!
+
+#### Step 6: Share Share Share!
 
 You just helped Beyoncé! Talk about a cool moment. Screenshot the fixed site or the code and share with **\#flatironcodeclub** and **\#styledbeyonce**
 

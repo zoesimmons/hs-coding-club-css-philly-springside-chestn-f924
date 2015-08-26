@@ -101,7 +101,7 @@ Now that we're familiar with what CSS is, the role that it plays in a website, a
 
 Again, we need our own HTML file. You can find a basic HTML file, `index.html` located in a directory called `your-css`.
 
-Before you can do anything else, you need to shut down the server that is loading `Beyoncé.html` for us. You can do that by hitting `control` + `c`.
+Before you can do anything else, you need to shut down the server that is loading `Beyoncé.html` for us. You can do that by hitting `control` + `c` at the same time.
 
 Now, you'll want to move into the `your_css` directory by entering in terminal: `cd your_css`.
 
@@ -201,7 +201,7 @@ Inside our CSS, we need to select the text inside the tag with the ID paragraph-
 }
 ```
 
-In our HTML we defined an ID on the first `p` tag. We then used that ID as our CSS selector, and applied that styling to our text.
+In our HTML we defined an ID on the first `p` tag. We then used that ID as our CSS selector, and applied that styling to our text. It's important to note that when we use an ID as our CSS selector, we mark it with a `#` in front of the ID name.
 
 Save both `index.html` and `style.css` and refresh in the browser!
 
@@ -229,7 +229,7 @@ In our CSS, we can use the class as our CSS selector. Copy and paste the code be
 }
 ```
 
-Save both `index.html` and `style.css` and refresh!
+Save both `index.html` and `style.css` and refresh! It's important to note that when we use a class as our CSS selector, we denote that with a `.` in front of the class name.
 
 
 ### Want To Learn More?

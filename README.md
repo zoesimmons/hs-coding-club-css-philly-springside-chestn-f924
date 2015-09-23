@@ -42,7 +42,7 @@ Woah Stacy and Clinton work fast! They made those changes so quickly! The differ
 
 Before we can add styling, we need to have an HTML file. We've provided you with `Beyonce.html`. This file contains just the raw content of Beyonce.com. We'll be making changes to this file to upgrade the look and feel, because we're the style-gurus and Beyoncé needs our help.
 
-In order to access this lesson and edit files, please click the `Open in Nitrous` button at the top of the page.
+In order to access this lesson and edit files, please click the `Open` button at the top of the page.
 
 <img src="https://s3.amazonaws.com/after-school-assets/open-in-nitrous.png">
 

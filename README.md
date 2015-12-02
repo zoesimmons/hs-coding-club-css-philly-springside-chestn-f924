@@ -254,3 +254,5 @@ No need to memorize all those CSS properties. Take a look at these great resourc
 
 
 
+
+<a href='https://learn.co/lessons/hs-coding-club-css' data-visibility='hidden'>View this lesson on Learn.co</a>

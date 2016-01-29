@@ -255,4 +255,4 @@ No need to memorize all those CSS properties. Take a look at these great resourc
 
 
 
-<a href='https://learn.co/lessons/hs-coding-club-css' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-coding-club-css' title='What Not To Wear - CSS Edition'>What Not To Wear - CSS Edition</a> on Learn.co and start learning to code for free.</p>
